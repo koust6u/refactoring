@@ -9,6 +9,6 @@ public enum CommandList {
         for(CommandList command: CommandList.values()){
             if(index == command.index) return command;
         }
-        throw new IllegalArgumentException("올바른 명령이 아닙니다.");
+        throw new IllegalArgumentException("Invalid type.");
     }
 }
